@@ -13,6 +13,8 @@ The returned ID from the previous snapshot it copied. A client container is made
 It is expected that both oranges and apple types are loaded back with the correct count.
 
 ```
+getting into container and creating a csv file as below
+
 load_data,<snapshot_returned>
 get_count,apples
 get_count,oranges
