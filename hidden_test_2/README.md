@@ -31,4 +31,6 @@ client.get_count("oranges")
 ```
 
 ### Note
+#### It is ensured that the servers are still running when this test is being run.
+
 Another way this was tested if client_file.py was not performing as expected was to create subsequent requests in client.py, save the ID and call load API and verify results.
