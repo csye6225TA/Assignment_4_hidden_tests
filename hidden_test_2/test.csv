@@ -1,0 +1,3 @@
+load_data,<snapshot_returned>
+get_count,apples
+get_count,oranges
