@@ -1,0 +1,7 @@
+define_stuff,apples,healthy
+define_stuff,oranges,refreshing
+add,7,apples
+add,3,oranges
+save_data,
+undefine,apples
+undefine,oranges
