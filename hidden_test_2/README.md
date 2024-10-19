@@ -13,7 +13,19 @@ The returned ID from the previous snapshot it copied. A client container is made
 It is expected that both oranges and apple types are loaded back with the correct count.
 
 ```
+load_data,<snapshot_returned>
+get_count,apples
+get_count,oranges
+```
 
+OR
+
+```
+client.py
+
+client.load_data(snapshot_id)
+client.get_count("apples")
+client.get_count("oranges")
 ```
 
 ### Note
